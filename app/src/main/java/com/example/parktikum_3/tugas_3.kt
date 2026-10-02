@@ -1,10 +1,12 @@
 
 Text(
-text = "Login",
-fontSize = 32.sp,
-fontWeight = FontWeight.Bold,
-color = Color.Blue
+text = "Ini adalah halaman login,",
+fontSize = 14.sp,
+color = Color.White
 )
+
+
+
 
 
 
