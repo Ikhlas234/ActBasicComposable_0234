@@ -1,11 +1,16 @@
-Text(
-text = "20240140234",
-fontSize = 22.sp,
-fontWeight = FontWeight.Bold,
-color = Color.Black
-)
 
-Spacer(modifier = Modifier.height(24.dp))
+Image(
+painter = painterResource(id = R.drawable.gambar3),
+contentDescription = "Foto Kabah",
+modifier = Modifier
+.size(280.dp)
+.clip(CircleShape)
+.border(width = 3.dp, color = Color.White, shape = CircleShape),
+contentScale = ContentScale.Crop
+)
+}
+}
+}
 
 
 
