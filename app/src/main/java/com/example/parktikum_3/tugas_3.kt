@@ -1,5 +1,6 @@
-@Composable
-fun LoginScreen(modifier: Modifier = Modifier) {
+
+Box(modifier = modifier.fillMaxSize()) {
+
 
 
 
