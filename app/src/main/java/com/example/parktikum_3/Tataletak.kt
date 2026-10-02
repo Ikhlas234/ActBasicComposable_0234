@@ -1,20 +1,34 @@
 @Composable
-fun TataletakRowColumn(modifier: Modifier) {
-    Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
-        //Kolom1
-        Column(){
-            Text(text = "Komponen1Kolom1")
-            Text(text = "Komponen2Kolom1")
-            Text(text = "Komponen3Kolom1")
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.tanahsuci)
+    Column {
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+            Column() {
+                Row(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1_Row1_Komponen1")
+                    Text(text = "Col1_Row1_Komponen2")
+                    Text(text = "Col1_Row1_Komponen3")
+                }
+                Row(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1_Row2_Komponen1")
+                    Text(text = "Col1_Row2_Komponen2")
+                    Text(text = "Col1_Row2_Komponen3")
+                }
+            }
         }
-        //Kolom2
-        Column(){
-            Text(text = "Komponen1Kolom2")
-            Text(text = "Komponen2Kolom2")
-            Text(text = "Komponen3Kolom2")
-        }
-    }
-}
+
 
 
 
