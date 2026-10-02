@@ -1,14 +1,12 @@
 
-Image(
-painter = painterResource(id = R.drawable.gambar2),
-contentDescription = "Logo UMY",
-modifier = Modifier
-.size(150.dp)
-.clip(CircleShape),
-contentScale = ContentScale.Fit
+Text(
+text = "Nama",
+fontSize = 14.sp,
+fontWeight = FontWeight.Bold,
+color = Color.Red
 )
 
-Spacer(modifier = Modifier.height(48.dp))
+
 
 
 
