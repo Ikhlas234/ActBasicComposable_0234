@@ -1,10 +1,10 @@
 
-Column(
-modifier = Modifier
-.fillMaxSize()
-.padding(top = 48.dp, bottom = 32.dp),
-horizontalAlignment = Alignment.CenterHorizontally
-) {
+Text(
+text = "Login",
+fontSize = 32.sp,
+fontWeight = FontWeight.Bold,
+color = Color.Blue
+)
 
 
 
