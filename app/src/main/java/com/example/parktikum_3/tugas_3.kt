@@ -1,10 +1,11 @@
 
-Image(
-painter = painterResource(id = R.drawable.gambar1),
-contentDescription = null,
-modifier = Modifier.fillMaxSize(),
-contentScale = ContentScale.Crop
-)
+Column(
+modifier = Modifier
+.fillMaxSize()
+.padding(top = 48.dp, bottom = 32.dp),
+horizontalAlignment = Alignment.CenterHorizontally
+) {
+
 
 
 
