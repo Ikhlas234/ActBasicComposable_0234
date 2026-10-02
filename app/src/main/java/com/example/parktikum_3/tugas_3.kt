@@ -1,10 +1,12 @@
-
 Text(
-text = "Nama",
-fontSize = 14.sp,
+text = "Muhammad ikhlasul bayquni",
+fontSize = 16.sp,
 fontWeight = FontWeight.Bold,
-color = Color.Red
+color = Color.Blue
 )
+
+
+
 
 
 
