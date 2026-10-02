@@ -1,9 +1,13 @@
 Text(
-text = "Muhammad ikhlasul bayquni",
-fontSize = 16.sp,
+text = "20240140234",
+fontSize = 22.sp,
 fontWeight = FontWeight.Bold,
-color = Color.Blue
+color = Color.Black
 )
+
+Spacer(modifier = Modifier.height(24.dp))
+
+
 
 
 
